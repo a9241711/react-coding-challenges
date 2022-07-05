@@ -6,7 +6,6 @@ import { StyleContext } from '../..';
 
 function App() {
   const{toggle,setToggle}=useContext(StyleContext)
-  console.log(toggle,setToggle)
   const clickElement=()=>{
     setToggle(!toggle)
     document.querySelector(".app").classList.toggle("dark-mode");
